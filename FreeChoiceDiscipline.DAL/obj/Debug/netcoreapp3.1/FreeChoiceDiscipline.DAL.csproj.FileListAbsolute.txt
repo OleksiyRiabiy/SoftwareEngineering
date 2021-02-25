@@ -1,0 +1,9 @@
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.csprojAssemblyReference.cache
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.AssemblyInfoInputs.cache
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.AssemblyInfo.cs
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.deps.json
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.pdb
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.pdb
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.csproj.CoreCompileInputs.cache

@@ -35,12 +35,8 @@ D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.csproj.CopyComplete
-D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Humanizer.dll
-D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.csproj.CoreCompileInputs.cache
-D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.MvcApplicationPartsAssemblyInfo.cache
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.pdb
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.deps.json
@@ -77,3 +73,9 @@ D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.Views.pdb
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.genruntimeconfig.cache
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.pdb
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.csproj.CoreCompileInputs.cache
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.MvcApplicationPartsAssemblyInfo.cache

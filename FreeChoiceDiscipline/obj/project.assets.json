@@ -1520,6 +1520,34 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "FreeChoiceDiscipline.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FreeChoiceDiscipline.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FreeChoiceDiscipline.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeChoiceDiscipline.BLL.dll": {}
+        }
+      },
+      "FreeChoiceDiscipline.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3"
+        },
+        "compile": {
+          "bin/placeholder/FreeChoiceDiscipline.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeChoiceDiscipline.DAL.dll": {}
+        }
       }
     }
   },
@@ -5788,13 +5816,23 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "FreeChoiceDiscipline.BLL/1.0.0": {
+      "type": "project",
+      "path": "../FreeChoiceDiscipline.BLL/FreeChoiceDiscipline.BLL.csproj",
+      "msbuildProject": "../FreeChoiceDiscipline.BLL/FreeChoiceDiscipline.BLL.csproj"
+    },
+    "FreeChoiceDiscipline.DAL/1.0.0": {
+      "type": "project",
+      "path": "../FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj",
+      "msbuildProject": "../FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore >= 5.0.3",
+      "FreeChoiceDiscipline.BLL >= 1.0.0",
+      "FreeChoiceDiscipline.DAL >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.3",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.3"
     ]
   },
@@ -5823,7 +5861,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.BLL\\FreeChoiceDiscipline.BLL.csproj": {
+              "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.BLL\\FreeChoiceDiscipline.BLL.csproj"
+            },
+            "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
+              "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5835,17 +5880,9 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[5.0.3, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.3, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.3, )"
           },

@@ -10,6 +10,7 @@ namespace FreeChoiceDiscipline.DAL
     public class AppDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Discipline> Disciplines { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions) : base(options: dbContextOptions) { }
 

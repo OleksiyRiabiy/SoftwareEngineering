@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FreeChoiceDiscipline.BLL.Services
+namespace Contracts
 {
-    public class UserService
+    public interface IUserRepository
     {
+
     }
 }

@@ -17,10 +17,5 @@ namespace FreeChoiceDiscipline.DAL.Entities
 
         public ICollection<User> Users { get; set; }
 
-        public Discipline(DisciplineToModify discipline)
-        {
-            Title = discipline.Title;
-            MaxAmountOfStudents = discipline.MaxAmountOfStudents;
-        }
     }
 }

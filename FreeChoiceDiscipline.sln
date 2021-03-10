@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeChoiceDiscipline", "FreeChoiceDiscipline\FreeChoiceDiscipline.csproj", "{D39C62F3-BDDF-46F2-BB88-420B68861C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeChoiceDiscipline.DAL", "FreeChoiceDiscipline.DAL\FreeChoiceDiscipline.DAL.csproj", "{1840039D-D1F2-4CF1-B53F-296D12D0BD58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeChoiceDiscipline.DAL", "FreeChoiceDiscipline.DAL\FreeChoiceDiscipline.DAL.csproj", "{1840039D-D1F2-4CF1-B53F-296D12D0BD58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeChoiceDiscipline.BLL", "FreeChoiceDiscipline.BLL\FreeChoiceDiscipline.BLL.csproj", "{4C2C3AE8-C353-43C8-82F2-B7764A519749}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{A7EE4CCA-5C8F-4E1C-95A6-EDDB97E3C442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{BF57AFCC-CD06-4562-83EA-DE6DAABE17EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{1840039D-D1F2-4CF1-B53F-296D12D0BD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1840039D-D1F2-4CF1-B53F-296D12D0BD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1840039D-D1F2-4CF1-B53F-296D12D0BD58}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C2C3AE8-C353-43C8-82F2-B7764A519749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C2C3AE8-C353-43C8-82F2-B7764A519749}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C2C3AE8-C353-43C8-82F2-B7764A519749}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C2C3AE8-C353-43C8-82F2-B7764A519749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EE4CCA-5C8F-4E1C-95A6-EDDB97E3C442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EE4CCA-5C8F-4E1C-95A6-EDDB97E3C442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EE4CCA-5C8F-4E1C-95A6-EDDB97E3C442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EE4CCA-5C8F-4E1C-95A6-EDDB97E3C442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF57AFCC-CD06-4562-83EA-DE6DAABE17EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF57AFCC-CD06-4562-83EA-DE6DAABE17EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF57AFCC-CD06-4562-83EA-DE6DAABE17EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF57AFCC-CD06-4562-83EA-DE6DAABE17EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

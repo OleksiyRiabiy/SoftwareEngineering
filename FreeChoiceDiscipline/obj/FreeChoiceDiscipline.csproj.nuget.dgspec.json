@@ -4,14 +4,14 @@
     "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj": {}
   },
   "projects": {
-    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.BLL\\FreeChoiceDiscipline.BLL.csproj": {
+    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.BLL\\FreeChoiceDiscipline.BLL.csproj",
-        "projectName": "FreeChoiceDiscipline.BLL",
-        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.BLL\\FreeChoiceDiscipline.BLL.csproj",
+        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\yurbe\\.nuget\\packages\\",
-        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.BLL\\obj\\",
+        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yurbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,11 +149,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.BLL\\FreeChoiceDiscipline.BLL.csproj": {
-                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.BLL\\FreeChoiceDiscipline.BLL.csproj"
+              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj"
               },
               "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
                 "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              },
+              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -167,6 +170,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -194,6 +201,75 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\yurbe\\.nuget\\packages\\",
+        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj"
+              },
+              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
+                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

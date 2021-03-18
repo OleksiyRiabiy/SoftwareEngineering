@@ -1,5 +1,6 @@
 ﻿using Contracts;
 using FreeChoiceDiscipline.DAL;
+using FreeChoiceDiscipline.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace Repositories
             _context = repositoryContext;
         }
 
-        public IQueryable<T> FindAll(bool trackChanges)
+        public IEnumerable<T> FindAll(bool trackChanges)
         {
             return !trackChanges ? _context.Set<T>().AsNoTracking() : _context.Set<T>();
         }
@@ -29,6 +30,7 @@ namespace Repositories
         }
 
         public void Create(T entity) => _context.Set<T>().Add(entity);
+        public void CreateSet(IEnumerable<T> entities) => _context.Set<T>().AddRange(entities);
         public void Update(T entity) => _context.Set<T>().Update(entity);
         public void Delete(T entity) => _context.Set<T>().Remove(entity);
     }

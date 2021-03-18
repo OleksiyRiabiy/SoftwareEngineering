@@ -10,5 +10,7 @@ namespace Repositories
     public class UserRepository: RepositoryBase<User>, IUserRepository
     {
         public UserRepository(AppDbContext repositoryContext): base(repositoryContext) { }
+
+
     }
 }

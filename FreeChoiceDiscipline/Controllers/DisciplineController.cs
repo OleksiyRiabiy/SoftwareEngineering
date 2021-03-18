@@ -29,7 +29,7 @@ namespace FreeChoiceDiscipline.Controllers
         [HttpPost]
         public IActionResult CreateDiscipline(DisciplineToCreate disciplineToCreate)
         {
-            if ( disciplineToCreate == null )
+            if (disciplineToCreate == null )
             {
                 _logger.LogError($"{nameof(DisciplineToCreate)} object sent from client is null.");
                 return BadRequest(); // View ?

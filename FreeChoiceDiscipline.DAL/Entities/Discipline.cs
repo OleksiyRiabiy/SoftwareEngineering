@@ -17,5 +17,29 @@ namespace FreeChoiceDiscipline.DAL.Entities
 
         public ICollection<User> Users { get; set; }
 
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+            Discipline user = obj as Discipline;
+            if (user == null)
+            {
+                return false;
+            }
+
+            return Equals(user);
+        }
+
+        public bool Equals(Discipline discipline)
+        {
+            return Title == discipline.Title &&
+                MaxAmountOfStudents.Equals(discipline.MaxAmountOfStudents) &&
+                CurrentAmountOfStudents.Equals(discipline.CurrentAmountOfStudents) &&
+                IsOpenToRegistry.Equals(discipline.IsOpenToRegistry);
+        }
+
     }
 }

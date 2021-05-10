@@ -19,7 +19,7 @@ namespace Repositories
 
         public User Register(UserRegistration userRegistration)
         {
-            User userFromDb = FindByCondition(x => x.Username.Equals(userRegistration.Login), trackChanges: false).FirstOrDefault();
+            User userFromDb = FindByCondition(x => x.UserName.Equals(userRegistration.Login), trackChanges: false).FirstOrDefault();
 
             if (userFromDb != null)
             {
@@ -30,7 +30,7 @@ namespace Repositories
             {
                 Firstname = userRegistration.Firstname,
                 Lastname = userRegistration.Lastname,
-                Username = userRegistration.Login,
+                UserName = userRegistration.Login,
                 PasswordHash = userRegistration.Password.HashPassword()
             };
 

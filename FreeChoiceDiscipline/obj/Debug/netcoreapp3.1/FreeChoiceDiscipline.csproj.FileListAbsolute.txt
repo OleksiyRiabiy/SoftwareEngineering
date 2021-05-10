@@ -85,5 +85,13 @@ D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\NLog.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Helpers.dll
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Helpers.pdb
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.csproj.CoreCompileInputs.cache
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.MvcApplicationPartsAssemblyInfo.cache

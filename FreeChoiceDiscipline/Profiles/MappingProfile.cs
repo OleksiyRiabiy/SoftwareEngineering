@@ -18,7 +18,10 @@ namespace FreeChoiceDiscipline.Profiles
 
             CreateMap<DisciplineToCreate, Discipline>();
 
-            
+
+            CreateMap<UserForRegistrationDto, User>();
+
+
         }
     }
 }

@@ -6,4 +6,7 @@ D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\bin\Debug\netcorea
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.pdb
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.dll
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.pdb
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.runtimeconfig.json
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\bin\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.runtimeconfig.dev.json
 D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.csproj.CoreCompileInputs.cache
+D:\WEB\Projects\FreeChoiceDiscipline\FreeChoiceDiscipline.DAL\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.DAL.genruntimeconfig.cache

@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -205,7 +205,65 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj",
+        "projectName": "Helpers",
+        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj",
+        "packagesPath": "C:\\Users\\yurbe\\.nuget\\packages\\",
+        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -237,6 +295,9 @@
               },
               "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
                 "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              },
+              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj": {
+                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj"
               }
             }
           }
@@ -274,7 +335,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,9 +9,10 @@ using System.Text;
 
 namespace Repositories
 {
-    class DisciplineRepository: RepositoryBase<Discipline>, IDisciplineRepository
+    class DisciplineManager: RepositoryBase<Discipline>, IDisciplineRepository
     {
-        public DisciplineRepository(AppDbContext repositoryContext) : base(repositoryContext) { }
+
+        public DisciplineManager(AppDbContext repositoryContext) : base(repositoryContext) { }
 
         public void CreateDiscipline(Discipline discipline)
         {

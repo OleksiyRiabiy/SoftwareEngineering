@@ -15,7 +15,7 @@ using System.Text;
 
 namespace Testing.Repositories.Setup
 {
-    public class BaseRepositorySetup
+    public class BaseRepositorySetup //TODO IClassFixture
     {
         protected static readonly DbContextOptions<AppDbContext> options;
         protected readonly AppDbContext _context;

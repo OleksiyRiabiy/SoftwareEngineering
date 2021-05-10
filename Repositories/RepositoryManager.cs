@@ -22,7 +22,7 @@ namespace Repositories
             get
             {
                 if (_userRepository == null)
-                    _userRepository = new UserRepository(_repositoryContext);
+                    _userRepository = new UserManager(_repositoryContext);
                 return _userRepository;
             }
         }
@@ -32,7 +32,7 @@ namespace Repositories
             get
             {
                 if (_disciplineRepository == null)
-                    _disciplineRepository = new DisciplineRepository(_repositoryContext);
+                    _disciplineRepository = new DisciplineManager(_repositoryContext);
                 return _disciplineRepository;
             }
         }

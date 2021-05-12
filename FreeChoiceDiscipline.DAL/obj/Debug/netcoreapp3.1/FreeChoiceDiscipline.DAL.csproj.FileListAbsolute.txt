@@ -24,3 +24,13 @@ C:/Users/Nazar/source/repos/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Deb
 C:/Users/Nazar/source/repos/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.genruntimeconfig.cache
 /Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.dll
 /Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.pdb
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/bin/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.deps.json
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/bin/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.runtimeconfig.json
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/bin/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.runtimeconfig.dev.json
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/bin/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.dll
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/bin/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.pdb
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.csprojAssemblyReference.cache
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.AssemblyInfoInputs.cache
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.AssemblyInfo.cs
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/Debug/netcoreapp3.1/FreeChoiceDiscipline.DAL.genruntimeconfig.cache

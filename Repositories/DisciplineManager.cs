@@ -77,7 +77,7 @@ namespace Repositories
 		{
 			_ = title ?? throw new ArgumentNullException(nameof(title));
 
-			var disciplineFromDb = FindDisciplineByTitle(discipline.Title, trackChanges: false);
+			var disciplineFromDb = FindDisciplineByTitle(title, trackChanges: false);
 
 			if (disciplineFromDb == null)
 			{

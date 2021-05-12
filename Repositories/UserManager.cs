@@ -49,28 +49,28 @@ namespace Repositories
 			return (AccessToken: accessToken, RefreshToken: refreshToken);
 		}
 
-		public void UpdateUser(User user)
-		{
-			_ = user ?? throw new ArgumentNullException(nameof(user));
+		//public void UpdateUser(User user)
+		//{
+		//	_ = user ?? throw new ArgumentNullException(nameof(user));
 
-			var userFromDb = FindDisciplineByTitle(discipline.Title);
+		//	var userFromDb = FindDisciplineByTitle(discipline.Title);
 
-			if (disciplineFromDb == null)
-			{
-				throw new ArgumentException($"Discipline with title {title} does not exists");
-			}
+		//	if (disciplineFromDb == null)
+		//	{
+		//		throw new ArgumentException($"Discipline with title {title} does not exists");
+		//	}
 
-			else
-			{
-				//TODO maper
-				disciplineFromDb.Title = discipline.Title;
-				disciplineFromDb.MaxAmountOfStudents = discipline.MaxAmountOfStudents;
-				disciplineFromDb.CurrentAmountOfStudents = discipline.CurrentAmountOfStudents;
-				disciplineFromDb.IsOpenToRegistry = discipline.IsOpenToRegistry;
+		//	else
+		//	{
+		//		//TODO maper
+		//		disciplineFromDb.Title = discipline.Title;
+		//		disciplineFromDb.MaxAmountOfStudents = discipline.MaxAmountOfStudents;
+		//		disciplineFromDb.CurrentAmountOfStudents = discipline.CurrentAmountOfStudents;
+		//		disciplineFromDb.IsOpenToRegistry = discipline.IsOpenToRegistry;
 
-				_repositoryContext.SaveChanges();
-			}
-		}
+		//		_repositoryContext.SaveChanges();
+		//	}
+		//}
 
 
 	}

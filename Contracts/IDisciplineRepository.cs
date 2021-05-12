@@ -12,7 +12,7 @@ namespace Contracts
 		void CreateDiscipline(Discipline discipline);
 		void AddListOfDisciplines(IEnumerable<Discipline> disciplines);
 		void UpdateDiscipline(string title, Discipline discipline);
-		void DelateDiscipline(int id);
+		void DelateDiscipline(string title);
 		IEnumerable<Discipline> GetAll(bool trackChanges);
 		Discipline FindDisciplineByTitle(string title, bool trackChanges);
 	}

@@ -48,10 +48,6 @@ namespace Repositories
 
 
 
-
-
-
-
 		public void UpdateDiscipline(string title, Discipline discipline)
 		{
 			_ = discipline ?? throw new ArgumentNullException(nameof(discipline));
@@ -75,6 +71,8 @@ namespace Repositories
 			}
 		}
 
+
+
 		public void DelateDiscipline(string title)
 		{
 			_ = title ?? throw new ArgumentNullException(nameof(title));
@@ -92,6 +90,8 @@ namespace Repositories
 				_repositoryContext.SaveChanges();
 			}
 		}
+
+
 
 		public void Save() => _repositoryContext.SaveChanges();
 	}

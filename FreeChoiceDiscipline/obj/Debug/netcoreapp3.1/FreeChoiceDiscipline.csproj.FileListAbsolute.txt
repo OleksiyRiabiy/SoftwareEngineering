@@ -194,3 +194,5 @@ C:\Users\Nazar\source\repos\SoftwareEngineering\FreeChoiceDiscipline\obj\Debug\n
 C:\Users\Nazar\source\repos\SoftwareEngineering\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\FreeChoiceDiscipline.genruntimeconfig.cache
 C:\Users\Nazar\source\repos\SoftwareEngineering\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\Razor\Controllers\AllDisciplines.cshtml.g.cs
 C:\Users\Nazar\source\repos\SoftwareEngineering\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\Razor\Views\Discipline\AllDisciplines.cshtml.g.cs
+C:\Users\Nazar\source\repos\SoftwareEngineering\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Nazar\source\repos\SoftwareEngineering\FreeChoiceDiscipline\obj\Debug\netcoreapp3.1\Razor\Views\Home\Registration.cshtml.g.cs

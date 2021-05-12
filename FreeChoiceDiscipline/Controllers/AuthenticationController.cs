@@ -83,6 +83,5 @@ namespace FreeChoiceDiscipline.Controllers
 
             return Ok(new { Token = await _authManager.CreateToken() });
         }
-        
     }
 }

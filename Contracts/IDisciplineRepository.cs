@@ -7,11 +7,13 @@ using System.Text;
 
 namespace Contracts
 {
-    public interface IDisciplineRepository
-    {
-        void CreateDiscipline(Discipline discipline);
-        void AddListOfDisciplines(IEnumerable<Discipline> disciplines);
-        IEnumerable<Discipline> GetAll(bool trackChanges);
-        Discipline FindDisciplineByTitle(string title, bool trackChanges);
-    }
+	public interface IDisciplineRepository
+	{
+		void CreateDiscipline(Discipline discipline);
+		void AddListOfDisciplines(IEnumerable<Discipline> disciplines);
+		void UpdateDiscipline(string title, Discipline discipline);
+		void DelateDiscipline(int id);
+		IEnumerable<Discipline> GetAll(bool trackChanges);
+		Discipline FindDisciplineByTitle(string title, bool trackChanges);
+	}
 }

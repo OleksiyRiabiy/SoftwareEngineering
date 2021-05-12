@@ -8,20 +8,20 @@ using System.Threading.Tasks;
 
 namespace FreeChoiceDiscipline.Profiles
 {
-    public class MappingProfile : Profile
-    {
-        public MappingProfile()
-        {
-            //CreateMap<Company, CompanyDto>()
-            //    .ForMember(c => c.FullAddress,
-            //                opt => opt.MapFrom(x => string.Join(' ', x.Address, x.Country)));
+	public class MappingProfile : Profile
+	{
+		public MappingProfile()
+		{
+			//CreateMap<Company, CompanyDto>()
+			//    .ForMember(c => c.FullAddress,
+			//                opt => opt.MapFrom(x => string.Join(' ', x.Address, x.Country)));
 
-            CreateMap<DisciplineToCreate, Discipline>();
-
-
-            CreateMap<UserForRegistrationDto, User>();
+			//CreateMap<DisciplineToCreate, Discipline>();
 
 
-        }
-    }
+			CreateMap<UserForRegistrationDto, User>();
+
+
+		}
+	}
 }

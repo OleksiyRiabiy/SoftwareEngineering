@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FreeChoiceDiscipline.Controllers
 {
-    [Route("discipline")]
+    [Route("Discipline")]
     [ApiController]
     public class DisciplineController : Controller
     {
@@ -42,6 +42,24 @@ namespace FreeChoiceDiscipline.Controllers
 
             return StatusCode(201); // View 
         }
+
+        [HttpGet]
+        public IActionResult AllDisciplines()
+        {
+            List<Discipline> model = new List<Discipline>();
+            model.Add(
+                new Discipline() { Title = "Some course1", Id = 1, CurrentAmountOfStudents = 15, MaxAmountOfStudents = 100, IsOpenToRegistry = true, Users = null }
+                );
+            model.Add(
+               new Discipline() { Title = "Some course2", Id = 2, CurrentAmountOfStudents = 5, MaxAmountOfStudents = 100, IsOpenToRegistry = true, Users = null }
+               );
+            model.Add(
+               new Discipline() { Title = "Some course3", Id = 3, CurrentAmountOfStudents = 25, MaxAmountOfStudents = 100, IsOpenToRegistry = true, Users = null }
+               );
+
+            //var model = _repository.Discipline.GetAll(false).ToList();
+            return View(model);
+		}
 
     }
 }

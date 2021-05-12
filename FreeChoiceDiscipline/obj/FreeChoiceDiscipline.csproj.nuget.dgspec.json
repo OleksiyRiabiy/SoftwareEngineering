@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj": {}
+    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj": {}
   },
   "projects": {
-    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\yurbe\\.nuget\\packages\\",
-        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yurbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
-                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
+                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
               }
             }
           }
@@ -60,17 +60,17 @@
         }
       }
     },
-    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
+    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj",
         "projectName": "FreeChoiceDiscipline.DAL",
-        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj",
-        "packagesPath": "C:\\Users\\yurbe\\.nuget\\packages\\",
-        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj",
+        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yurbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,17 +136,17 @@
         }
       }
     },
-    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj": {
+    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj",
+        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj",
         "projectName": "FreeChoiceDiscipline",
-        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj",
-        "packagesPath": "C:\\Users\\yurbe\\.nuget\\packages\\",
-        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline\\obj\\",
+        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj",
+        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yurbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -159,14 +159,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj"
               },
-              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
-                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
+                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
               },
-              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj"
+              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -180,6 +180,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
@@ -227,17 +231,17 @@
         }
       }
     },
-    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj": {
+    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj",
         "projectName": "Helpers",
-        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj",
-        "packagesPath": "C:\\Users\\yurbe\\.nuget\\packages\\",
-        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\obj\\",
+        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj",
+        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yurbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -289,17 +293,17 @@
         }
       }
     },
-    "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\yurbe\\.nuget\\packages\\",
-        "outputPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yurbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -312,14 +316,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj"
               },
-              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
-                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
+                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
               },
-              "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj": {
-                "projectPath": "D:\\WEB\\Projects\\FreeChoiceDiscipline\\Helpers\\Helpers.csproj"
+              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj"
               }
             }
           }

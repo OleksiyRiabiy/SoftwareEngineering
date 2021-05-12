@@ -1,0 +1,18 @@
+﻿@{
+	ViewData["Title"] = "All Disciplines";
+}
+
+@model IEnumerable<FreeChoiceDiscipline.DAL.Entities.Discipline>
+
+<h1>@ViewData["Title"]</h1>
+
+@foreach(var item in Model)
+{
+	<div class="card text-center m-3">
+		<h3>@item.Title</h3>
+		<p>ID: @item.Id</p>
+		<p>Amount of students: @item.CurrentAmountOfStudents</p>
+		<p>Max amount of students: @item.MaxAmountOfStudents</p>
+		<p>Opened to sign up: @item.IsOpenToRegistry</p>
+	</div>
+}

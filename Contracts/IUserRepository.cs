@@ -10,8 +10,8 @@ namespace Contracts
 	{
 		User Register(UserRegistration userRegistration);
 		public void UpdateUser(int id, User user);
-		public void DeleteUser(int id);
+		public void DeleteUser(int id, bool trackChanges);
 		public User FindUserById(int id, bool trackChanges);
-		public void FindUserById(int id);
+
 	}
 }

@@ -79,7 +79,7 @@ namespace Repositories
 
 
 
-		public void DeleteUser(int id)
+		public void DeleteUser(int id, bool trackChanges)
 		{
 			//_ = id ?? throw new ArgumentNullException(nameof(id));
 

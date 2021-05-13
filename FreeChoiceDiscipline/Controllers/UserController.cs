@@ -31,7 +31,7 @@ namespace FreeChoiceDiscipline.Controllers
 		[HttpDelete]
 		public IActionResult DeleteUser(int id)
 		{
-			_userRepository.DeleteUser(id);
+			_userRepository.DeleteUser(id, trackChanges: false);
 
 			return StatusCode(201); // View 
 		}
@@ -40,7 +40,7 @@ namespace FreeChoiceDiscipline.Controllers
 		[HttpGet]
 		public IActionResult GetUser(int id)
 		{
-			_userRepository.FindUserById(id);
+			_userRepository.FindUserById(id, trackChanges: false);
 
 			return StatusCode(201); // View 
 		}

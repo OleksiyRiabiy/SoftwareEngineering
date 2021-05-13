@@ -61,13 +61,16 @@ namespace Repositories
 
 			else
 			{
-				//TODO maper
+				//TODO maper work?
+
 				disciplineFromDb.Title = discipline.Title;
 				disciplineFromDb.MaxAmountOfStudents = discipline.MaxAmountOfStudents;
 				disciplineFromDb.CurrentAmountOfStudents = discipline.CurrentAmountOfStudents;
 				disciplineFromDb.IsOpenToRegistry = discipline.IsOpenToRegistry;
 
-				_repositoryContext.SaveChanges();
+				Update(disciplineFromDb);
+
+				//_repositoryContext.SaveChanges();
 			}
 		}
 
@@ -86,8 +89,11 @@ namespace Repositories
 
 			else
 			{
-				_repositoryContext.Disciplines.Remove(disciplineFromDb);
-				_repositoryContext.SaveChanges();
+				//TODO ??? work?
+				Delete(disciplineFromDb);
+
+				//_repositoryContext.Disciplines.Remove(disciplineFromDb);
+				//_repositoryContext.SaveChanges();
 			}
 		}
 

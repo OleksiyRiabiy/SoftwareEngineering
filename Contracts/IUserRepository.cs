@@ -6,8 +6,10 @@ using System.Text;
 
 namespace Contracts
 {
-    public interface IUserRepository
-    {
-        User Register(UserRegistration userRegistration);
-    }
+	public interface IUserRepository
+	{
+		User Register(UserRegistration userRegistration);
+		public void UpdateUser(int id, User user);
+
+	}
 }

@@ -1,34 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj": {}
+    "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline/FreeChoiceDiscipline.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj": {
+    "/Users/mac/Documents/GitHub/SoftwareEngineering/Contracts/Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "/Users/mac/Documents/GitHub/SoftwareEngineering/Contracts/Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\obj\\",
+        "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Contracts/Contracts.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mac/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
-                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj": {
+                "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj"
               }
             }
           }
@@ -41,6 +40,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -51,37 +51,42 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
+    "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj",
+        "projectUniqueName": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj",
         "projectName": "FreeChoiceDiscipline.DAL",
-        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj",
-        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\obj\\",
+        "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mac/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -93,6 +98,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -127,46 +133,51 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj": {
+    "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline/FreeChoiceDiscipline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj",
+        "projectUniqueName": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline/FreeChoiceDiscipline.csproj",
         "projectName": "FreeChoiceDiscipline",
-        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\FreeChoiceDiscipline.csproj",
-        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline\\obj\\",
+        "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline/FreeChoiceDiscipline.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mac/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj"
+              "/Users/mac/Documents/GitHub/SoftwareEngineering/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Contracts/Contracts.csproj"
               },
-              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
-                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj": {
+                "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj"
               },
-              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj"
+              "/Users/mac/Documents/GitHub/SoftwareEngineering/Repositories/Repositories.csproj": {
+                "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Repositories/Repositories.csproj"
               }
             }
           }
@@ -179,6 +190,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -219,6 +231,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -227,32 +245,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj": {
+    "/Users/mac/Documents/GitHub/SoftwareEngineering/Helpers/Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj",
+        "projectUniqueName": "/Users/mac/Documents/GitHub/SoftwareEngineering/Helpers/Helpers.csproj",
         "projectName": "Helpers",
-        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj",
-        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\obj\\",
+        "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Helpers/Helpers.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Helpers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mac/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -264,6 +281,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -284,46 +302,51 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj": {
+    "/Users/mac/Documents/GitHub/SoftwareEngineering/Repositories/Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "/Users/mac/Documents/GitHub/SoftwareEngineering/Repositories/Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\Nazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Repositories\\obj\\",
+        "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Repositories/Repositories.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Repositories/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mac/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Contracts\\Contracts.csproj"
+              "/Users/mac/Documents/GitHub/SoftwareEngineering/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Contracts/Contracts.csproj"
               },
-              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj": {
-                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\FreeChoiceDiscipline.DAL\\FreeChoiceDiscipline.DAL.csproj"
+              "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj": {
+                "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/FreeChoiceDiscipline.DAL/FreeChoiceDiscipline.DAL.csproj"
               },
-              "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj": {
-                "projectPath": "C:\\Users\\Nazar\\source\\repos\\SoftwareEngineering\\Helpers\\Helpers.csproj"
+              "/Users/mac/Documents/GitHub/SoftwareEngineering/Helpers/Helpers.csproj": {
+                "projectPath": "/Users/mac/Documents/GitHub/SoftwareEngineering/Helpers/Helpers.csproj"
               }
             }
           }
@@ -336,6 +359,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -356,12 +380,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

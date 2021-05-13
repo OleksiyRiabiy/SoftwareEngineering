@@ -53,31 +53,47 @@ namespace Repositories
 		{
 			_ = user ?? throw new ArgumentNullException(nameof(user));
 
-			//var userFromDb = FindDisciplineByTitle(discipline.Title);
+			var userFromDb = FindUserById(id, trackChanges: false);
 
-			//if (disciplineFromDb == null)
-			//{
-			//	throw new ArgumentException($"Discipline with title {title} does not exists");
-			//}
+			if (userFromDb == null)
+			{
+				throw new ArgumentException($"Discipline with title {id} does not exists");
+			}
 
-			//else
-			//{
-			//	//TODO maper
-			//	disciplineFromDb.Title = discipline.Title;
-			//	disciplineFromDb.MaxAmountOfStudents = discipline.MaxAmountOfStudents;
-			//	disciplineFromDb.CurrentAmountOfStudents = discipline.CurrentAmountOfStudents;
-			//	disciplineFromDb.IsOpenToRegistry = discipline.IsOpenToRegistry;
-
-			//	_repositoryContext.SaveChanges();
-			//}
+			else
+			{
+				userFromDb.Firstname = user.Firstname;
+				userFromDb.Lastname = user.Lastname;
+				userFromDb.Role = user.Role;
+				userFromDb.Discipline = user.Discipline;
+				Update(userFromDb);
+			}
 		}
 
-		public User FindUserById(int id)
+
+
+		public User FindUserById(int id, bool trackChanges)
 		{
-			//return FindByCondition(x => x.Title.Equals(titl, trackChanges).FirstOrDefault();
-			return null;
+			return FindByCondition(x => x.Id.Equals(id), trackChanges).FirstOrDefault();
 		}
 
 
+
+		public void DeleteUser(int id)
+		{
+			//_ = id ?? throw new ArgumentNullException(nameof(id));
+
+			var userFromDb = FindUserById(id, trackChanges: false);
+
+			if (userFromDb == null)
+			{
+				throw new ArgumentException($"Discipline with title {id} does not exists");
+			}
+
+			else
+			{
+				Delete(userFromDb);
+			}
+		}
 	}
 }
